@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="bg-linear-to-b from-[#0f0f0f] to-[#1a1a1a] text-white py-24 px-6 md:px-16"
+      className="bg-linear-to-b from-[#0f0f0f] to-[#1a1a1a] text-white py-10 px-4 sm:py-24 sm:px-6 md:px-16"
     >
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
@@ -12,7 +12,7 @@ export default function Projects() {
           <p className="text-orange-500 text-sm sm:text-xl font-bold tracking-widest mb-2">
             PORTFOLIO
           </p>
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-2xl sm:text-5xl font-medium sm:font-bold">
             Projects<span className="text-orange-500">.</span>
           </h2>
         </div>
@@ -20,15 +20,17 @@ export default function Projects() {
         {/* Project Card */}
         <div className="flex flex-col gap-5">
           <div
-            className="max-w-8xl bg-black rounded-3xl p-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
+            className="max-w-8xl bg-black rounded-3xl px-5 py-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
     hover:scale-103
     hover:shadow-lg"
           >
             {/* Title */}
-            <h3 className="text-3xl font-semibold mb-4">E-Commerce</h3>
+            <h3 className="text-xl sm:text-3xl font-semibold mb-4">
+              E-Commerce
+            </h3>
 
             {/* Description */}
-            <ul className="text-gray-300 space-y-2 mb-6 leading-relaxed list-disc list-inside text-lg">
+            <ul className="text-gray-300 space-y-2 mb-6 leading-relaxed list-disc list-inside font-medium text-base sm:text-lg">
               <li>
                 Developed a role-based E-commerce platform with Admin panel,
                 User interface, and Backend services.
@@ -60,18 +62,20 @@ export default function Projects() {
             {/* CTA */}
             <a
               href="https://e-commerce-u7or.vercel.app/"
-              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all"
+              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
             >
               View Project <span>→</span>
             </a>
           </div>
           <div
-            className="max-w-8xl bg-black rounded-3xl p-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
+            className="max-w-8xl bg-black rounded-3xl px-5 py-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
     hover:scale-103
     hover:shadow-lg"
           >
             {/* Title */}
-            <h3 className="text-3xl font-semibold mb-4">Portfolio</h3>
+            <h3 className="text-xl sm:text-3xl font-semibold mb-4">
+              Portfolio
+            </h3>
 
             {/* Description */}
             <ul className="text-gray-300 space-y-2 mb-6 leading-relaxed list-disc list-inside text-lg">
@@ -95,22 +99,20 @@ export default function Projects() {
 
             {/* Tech Stack */}
             <div className="flex flex-wrap gap-3 mb-6">
-              {["React", "TailwindCSS", "JavaScript"].map(
-                (tech) => (
-                  <span
-                    key={tech}
-                    className="px-4 py-1.5 rounded-full bg-[#1f1f1f] text-sm sm:text-base font-bold text-gray-300"
-                  >
-                    {tech}
-                  </span>
-                ),
-              )}
+              {["React", "TailwindCSS", "JavaScript"].map((tech) => (
+                <span
+                  key={tech}
+                  className="px-4 py-1.5 rounded-full bg-[#1f1f1f] text-sm sm:text-base font-bold text-gray-300"
+                >
+                  {tech}
+                </span>
+              ))}
             </div>
 
             {/* CTA */}
             <a
-              href="#"
-              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all"
+              href="portfolio-lime-nu-66.vercel.app"
+              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
             >
               View Project <span>→</span>
             </a>

@@ -4,15 +4,15 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="bg-linear-to-b from-[#141414] to-[#202020] text-white py-24 px-6 md:px-16"
+      className="bg-linear-to-b from-[#141414] to-[#202020] text-white px-4 py-10 sm:py-24 sm:px-6 md:px-16"
     >
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="mb-12">
-          <p className="text-orange-500 text-sm sm:text-lg font-bold tracking-widest mb-2">
+          <p className="text-orange-500 text-xs sm:text-lg font-semibold sm:font-bold tracking-widest mb-2">
             ACADEMIC BACKGROUND
           </p>
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-2xl sm:text-5xl font-bold">
             Education<span className="text-orange-500">.</span>
           </h2>
         </div>
@@ -25,12 +25,12 @@ export default function Education() {
         >
           {/* Top Row */}
           <div className="flex items-start gap-4 mb-6">
-            <div className="w-12 h-12 bg-[#1c1c1c] rounded-xl flex items-center justify-center text-orange-500 text-xl">
+            <div className="w-8 h-8 sm:w-12 sm:h-12 bg-[#1c1c1c] rounded-xl flex items-center justify-center text-orange-500 text-xl">
               🎓
             </div>
 
             <div>
-              <h3 className="text-xl font-bold leading-snug">
+              <h3 className="text-base sm:text-xl font-medium sm:font-bold leading-snug">
                 Patel College of Science & Technology, Sheri Gram Ralamandal,
                 Indore
               </h3>
@@ -44,7 +44,7 @@ export default function Education() {
           <p className="text-orange-500 font-semibold mb-4">2022 - 2026</p>
 
           {/* Stream */}
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-base sm:text-lg">
             Computer Science and Engineering
           </p>
         </div>

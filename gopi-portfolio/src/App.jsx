@@ -10,7 +10,7 @@ import Languages from "./Components/Languages";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
       <Experience />
@@ -19,7 +19,7 @@ function App() {
       <Languages />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 }
 
