@@ -5,7 +5,7 @@ const skillsRight = ["CSS", "TailwindCSS", "Express.js", "MongoDB"];
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-black text-white p-10 sm:py-24 px-6 md:px-16 ">
+    <section id="skills" className="bg-black text-white py-5 sm:py-24 px-6 md:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="mb-12">

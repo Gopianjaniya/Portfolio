@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="min-w-91 sm:w-full px-5 sm:py-6 py-3 flex items-center justify-between bg-black fixed z-50 opacity-95">
+      <nav className="min-w-94 sm:w-full px-5 sm:py-6 py-3 flex items-center justify-between bg-black fixed z-50 opacity-95">
         {/* Logo */}
         <div className="text-white text-xl sm:text-4xl font-bold">
           GA<span className="text-orange-500">.</span>
