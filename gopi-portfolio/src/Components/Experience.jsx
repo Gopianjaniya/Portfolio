@@ -64,17 +64,11 @@ export default function Experience() {
 
             {/* Description */}
             <p className="text-gray-300 leading-relaxed mb-6 font-medium sm:font-semibold text-lg">
-              Full Stack Developer Intern (MERN Stack) at 4Brains Software LLP |
-              July 1, 2025 – Present. Currently working as a Full Stack
-              Developer Intern using the MERN stack. I develop end-to-end web
-              applications with React on the frontend and Node.js, Express on
-              the backend. I design and integrate REST APIs, handle application
-              logic, and work with MongoDB databases for data storage and
-              retrieval. I build responsive UIs using React, JavaScript, and
-              Tailwind CSS, and manage source code, version control, and team
-              collaboration using Git and GitHub. This role is helping me gain
-              hands-on experience in full stack development and real-world
-              project workflows.
+              Full Stack MERN Developer with 6 months of experience building and
+              deploying scalable web applications using MongoDB, Express.js,
+              React.js, and Node.js. Skilled in REST APIs, authentication
+              systems, database design, and responsive frontend development.
+              Focused on writing clean and maintainable code.
             </p>
 
             {/* Skills */}
@@ -85,6 +79,9 @@ export default function Experience() {
                 "MongoDB",
                 "Node.js",
                 "JavaScript",
+                "HTML",
+                "CSS",
+                "TailwindCSS",
               ].map((skill) => (
                 <span
                   key={skill}

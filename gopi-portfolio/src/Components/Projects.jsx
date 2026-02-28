@@ -60,12 +60,21 @@ export default function Projects() {
             </div>
 
             {/* CTA */}
-            <a
-              href="https://e-commerce-u7or.vercel.app/"
-              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
-            >
-              View Project <span>→</span>
-            </a>
+            <div className="w-70 flex justify-between items-center">
+              {" "}
+              <a
+                href="https://e-commerce-u7or.vercel.app/"
+                className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+              >
+                View Project <span>→</span>
+              </a>
+              <a
+                href="https://github.com/Gopianjaniya/E-commerce"
+                className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+              >
+                View Code<span>→</span>
+              </a>
+            </div>
           </div>
           <div
             className="max-w-8xl bg-black rounded-3xl px-5 py-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
@@ -105,12 +114,20 @@ export default function Projects() {
             </div>
 
             {/* CTA */}
-            <a
-              href="https://hospital-frontend-henna.vercel.app/"
-              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
-            >
-              View Project <span>→</span>
-            </a>
+            <div className="w-70 flex justify-between items-center">
+              <a
+                href="https://hospital-frontend-henna.vercel.app/"
+                className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+              >
+                View Project <span>→</span>
+              </a>
+              <a
+                href="https://github.com/Gopianjaniya/HospitalAppointments"
+                className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+              >
+                View Code<span>→</span>
+              </a>
+            </div>
           </div>
           <div
             className="max-w-8xl bg-black rounded-3xl px-5 py-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
@@ -155,12 +172,20 @@ export default function Projects() {
             </div>
 
             {/* CTA */}
-            <a
-              href="portfolio-lime-nu-66.vercel.app"
-              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
-            >
-              View Project <span>→</span>
-            </a>
+            <div className="w-70 flex justify-between items-center">
+              <a
+                href="portfolio-lime-nu-66.vercel.app"
+                className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+              >
+                View Project <span>→</span>
+              </a>
+              <a
+                href="https://github.com/Gopianjaniya/Portfolio"
+                className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+              >
+                View Code <span>→</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
