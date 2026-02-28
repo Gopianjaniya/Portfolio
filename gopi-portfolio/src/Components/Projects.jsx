@@ -74,6 +74,51 @@ export default function Projects() {
           >
             {/* Title */}
             <h3 className="text-xl sm:text-3xl font-semibold mb-4">
+              Hospital Appointment System
+            </h3>
+
+            {/* Description */}
+            <ul className="text-gray-300 space-y-2 mb-6 leading-relaxed list-disc list-inside text-lg">
+              <li>
+                Built appointment management system for Doctors and Patients.
+              </li>
+              <li>
+                Implemented authentication, booking and cancellation APIs.
+              </li>
+              <li>
+                Designed secure appointment workflow with MongoDB integration.
+              </li>{" "}
+            </ul>
+
+            {/* Tech Stack */}
+            <div className="flex flex-wrap gap-3 mb-6">
+              {["React", "TailwindCSS", "Node.js", "Express.js", "MongoDB"].map(
+                (tech) => (
+                  <span
+                    key={tech}
+                    className="px-4 py-1.5 rounded-full bg-[#1f1f1f] text-sm sm:text-base font-bold text-gray-300"
+                  >
+                    {tech}
+                  </span>
+                ),
+              )}
+            </div>
+
+            {/* CTA */}
+            <a
+              href="https://hospital-frontend-henna.vercel.app/"
+              className="inline-flex items-center gap-2 text-orange-500 font-medium hover:gap-3 transition-all text-sm sm:text-base"
+            >
+              View Project <span>→</span>
+            </a>
+          </div>
+          <div
+            className="max-w-8xl bg-black rounded-3xl px-5 py-8 md:p-10  shadow-lg  transition-all duration-400 ease-in-out
+    hover:scale-103
+    hover:shadow-lg"
+          >
+            {/* Title */}
+            <h3 className="text-xl sm:text-3xl font-semibold mb-4">
               Portfolio
             </h3>
 
